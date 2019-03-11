@@ -46,7 +46,7 @@ export class AppComponent {
 
   /*########################## File Upload ########################*/
   @ViewChild('fileInput') el: ElementRef;
-  imageUrl: any = '/assets/dummy-user.jpg';
+  imageUrl: any = 'https://i.pinimg.com/236x/d6/27/d9/d627d9cda385317de4812a4f7bd922e9--man--iron-man.jpg';
   editFile: boolean = true;
   removeUpload: boolean = false;
 
@@ -73,7 +73,7 @@ export class AppComponent {
   // Function to remove uploaded file
   removeUploadedFile() {
     let newFileList = Array.from(this.el.nativeElement.files);
-    this.imageUrl = '/assets/dummy-user.jpg';
+    this.imageUrl = 'https://i.pinimg.com/236x/d6/27/d9/d627d9cda385317de4812a4f7bd922e9--man--iron-man.jpg';
     this.editFile = true;
     this.removeUpload = false;
     this.registrationForm.patchValue({
