@@ -27,7 +27,7 @@ export class AppComponent {
       lastName: ['', [Validators.required]]
     }),
     email: ['', [Validators.required, Validators.pattern('[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$')]],
-    phoneNumber: ['', [Validators.required, Validators.pattern('^(0|[+91]{3})?[7-9][0-9]{9}$')]],
+    phoneNumber: ['', [Validators.required, Validators.maxLength(10), Validators.pattern('^(0|[+91]{3})?[7-9][0-9]{9}$')]],
     address: this.fb.group({
       street: ['', [Validators.required]],
       city: ['', [Validators.required]],

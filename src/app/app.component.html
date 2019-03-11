@@ -75,6 +75,9 @@
             <input type="text" class="form-control" formControlName="phoneNumber" [ngClass]="{'error': submitted && myForm.phoneNumber.errors}">
 
             <!-- error block -->
+            <div class="invalid-feedback" *ngIf="submitted && myForm.phoneNumber.errors?.maxLength">
+              <sup>*</sup>Phone number must be 10 digit long
+            </div>
             <div class="invalid-feedback" *ngIf="submitted && myForm.phoneNumber.errors?.required">
               <sup>*</sup>Please enter your phone number
             </div>
