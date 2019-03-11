@@ -20,6 +20,7 @@ Step by step article on [Full Angular 7 Reactive Forms & Form Validation Tutoria
 - Angular 7.2.2
 - RxJS 6.3.3
 - Typescript 3.1.6
+- Bootstrap 4.2.1
 
 ## Installation Process
 Run `npm install` to install all the required dependencies
