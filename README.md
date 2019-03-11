@@ -1,6 +1,28 @@
 # AngularReactiveForms
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
+Learn to create advance Angular 7 Reactive Forms using ReactiveFormsModule API from scratch with advanced Reactive Forms validation.
+
+Step by step article on [Full Angular 7 Reactive Forms & Form Validation Tutorial](https://www.positronx.io/full-angular-reactive-forms-form-validation-tutorial/)
+
+- Setting Up formGroup, ngSubmit & formControlName in Angular Form Template
+- Image Upload using Reactive Forms & HTML5 FileReader API in Angular
+- Working with Select DropDown in Reactive Forms with Angular 7
+- Working with Radio Buttons using Angular 7 Reactive Forms
+- Create Dynamic Form Fields using FormArray API
+- Custom Validator with Angular 7 Reactive Forms
+- Full Angular Form Valdiation e.g required field, pattern match & confirm password
+- Using @Viewport() to access HTML input field
+
+**If you love this project then show your love by simply sharing this repo with others and don't forget to put a GitHub star ⭐ ! Thanks** :pray:
+
+## Technologies used
+- Node 10.15.0
+- Angular 7.2.2
+- RxJS 6.3.3
+- Typescript 3.1.6
+
+## Installation Process
+Run `npm install` to install all the required dependencies
 
 ## Development server
 
